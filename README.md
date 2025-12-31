@@ -6,3 +6,4 @@
 - 0004 : Pod.yaml 파일 작성
 - 0005 : muti-container pod 생성
 - 0006 : deployment 생성 (삭제된 pod 자동으로 복구되는 확인)
+- 0007 : 자동/수동 스케일링
