@@ -14,4 +14,5 @@
 - 0012 : ConfigMap 생성 및 Pod에서 환경변수/볼륨 방식으로 설정 주입
 - 0013 : Secret 생성 및 Pod에 환경변수/볼륨 방식으로 민감 정보 주입
 - 0014 : PV/PVC 생성 후 Pod에 PVC 마운트하여 데이터 영속성 확인
-- 0015 : Namespace 분리된 Frontend-Backend Deployment 및 Service 배포
+- 0015 : Namespace 분리된 frontend-backend deployment 및 Service 배포
+- 0016 : 쿠버네티스 리소스 정리 및 디버깅/운영용 kubectl 명령어 정리
