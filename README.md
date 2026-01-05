@@ -11,3 +11,4 @@
 - 0009 : nginx Deployment에 대한 ClusterIP Service 추가
 - 0010 : nginx Deployment 외부 접근을 위한 NodePort Service 추가
 - 0011 : 프로덕션 외부 접근을 위한 LoadBalancer Service 추가
+- 0012 : ConfigMap 생성 및 Pod에서 환경변수/볼륨 방식으로 설정 주입
