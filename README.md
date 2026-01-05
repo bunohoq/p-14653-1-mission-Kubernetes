@@ -1,12 +1,12 @@
 # p-14653-1-mission
 
-- 0001 : 쿠버네티스 설정 킴
-- 0002 : 쿠버네티스 기본 명령어
-- 0003 : 명령형 방식으로 Pod 생성
-- 0004 : Pod.yaml 파일 작성
+- 0001 : Docker Desktop에서 Kubernetes 클러스터 활성화 및 설치 확인
+- 0002 : kubectl로 클러스터/네임스페이스 상태 확인 실습
+- 0003 : kubectl run으로 nginx Pod 생성/접속/로그/삭제 실습
+- 0004 : Pod YAML 작성 및 apply로 선언형 배포 실습
 - 0005 : muti-container pod 생성
-- 0006 : deployment 생성 (삭제된 pod 자동으로 복구되는 확인)
-- 0007 : 자동/수동 스케일링
+- 0006 : 멀티 컨테이너 Pod(사이드카) 구성 및 로그 공유 실습
+- 0007 : Deployment 수동 스케일링(kubectl scale) 실습
 - 0008 : Deployment에 롤링 업데이트 전략 추가 (maxSurge=1, maxUnavailable=0)
 - 0009 : nginx Deployment에 대한 ClusterIP Service 추가
 - 0010 : nginx Deployment 외부 접근을 위한 NodePort Service 추가
