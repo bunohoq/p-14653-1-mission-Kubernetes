@@ -7,3 +7,4 @@
 - 0005 : muti-container pod 생성
 - 0006 : deployment 생성 (삭제된 pod 자동으로 복구되는 확인)
 - 0007 : 자동/수동 스케일링
+- 0008: Deployment에 롤링 업데이트 전략 추가 (maxSurge=1, maxUnavailable=0)
